@@ -1,0 +1,34 @@
+/* Hide core ribbon icons */
+.side-dock-ribbon-action[aria-label="Open quick switcher"],
+.side-dock-ribbon-action[aria-label="Open graph view"],
+.side-dock-ribbon-action[aria-label="Create new canvas"],
+.side-dock-ribbon-action[aria-label="Open today's daily note"],
+.side-dock-ribbon-action[aria-label="Insert template"],
+.side-dock-ribbon-action[aria-label="Open command palette"],
+.side-dock-ribbon-action[aria-label="Create new base"],
+.side-dock-ribbon-action[aria-label="Create new unique note"] {
+  display: none !important;
+}
+
+/* Hide core sidebar tabs */
+.workspace-tab-header[aria-label="Files"],
+.workspace-tab-header[aria-label="Bookmarks"],
+.workspace-tab-header[aria-label="Vertical tabs"] {
+  display: none !important;
+}
+
+/* Hide the tab header bar entirely if only one tab remains */
+.mod-left-split .workspace-tab-header-container {
+  display: none !important;
+}
+
+/* Make Notebook Navigator fill the full sidebar space */
+.mod-left-split .workspace-leaf {
+  padding-top: 0 !important;
+}
+
+.mod-left-split .view-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+  height: 100% !important;
+}

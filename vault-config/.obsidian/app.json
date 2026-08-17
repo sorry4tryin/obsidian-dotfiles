@@ -1,0 +1,11 @@
+{
+  "showInlineTitle": true,
+  "vimMode": false,
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "livePreview": true,
+  "openBehavior": "file:inbox/core",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./"
+}
