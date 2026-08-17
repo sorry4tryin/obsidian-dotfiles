@@ -60,7 +60,9 @@ My Obsidian vault configuration — themes, snippets, hotkeys, plugin settings, 
 
 6. **Set up Obsidian Git** (if using):
    - Go to **Settings > Obsidian Git**
-   - Configure your repo path and credentials
+   - Set the **Repository Path** to your vault path
+   - Enter your GitHub PAT in the **Password** field — it's stored in your OS keychain, not in any file
+   - **Never commit tokens or credentials to this repo**
 
 ### Updating Config
 
